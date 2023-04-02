@@ -1,0 +1,86 @@
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.start {
+    margin: 0 0 0 0;
+    width: 50%;
+    height: 40%;
+    background: linear-gradient(180deg, #007cf76b 9.84%, rgba(152, 195, 232, 0) 70.12%);
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 38px;
+    color: darkblue;
+}
+
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.field {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.button {
+    color: yellow; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: rgb(212,75,56); /* фон кнопки */
+    padding: .7em 1.5em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+
+}
+.button:hover  { background: rgb(232,95,76); } /* при наведении курсора мышки */
+.button:active { background: rgb(152,15,0); } /* при нажатии */
+
+a {
+    margin: 0em;
+    font-size: 16px;
+}
+
+.buttons {
+
+    margin: 10px 40%;
+}
+
+.gradient-button {
+    text-decoration: none;
+    display: inline-block;
+    color: yellow;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+.gradient-button:hover {
+    background-position: right center;
+}
+
+.expression {
+    font-size: 20px;
+}
